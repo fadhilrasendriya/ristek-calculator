@@ -13,10 +13,13 @@ public class App {
     public int getSubstract(int a, int b) {
         return a-b;
     }
+    public int getProduct(int a, int b) {
+        return a*b;
+    }
 
     public static void main(String[] args) {
         System.out.println(new App().getSum(10,20));
         System.out.println(new App().getSubstract(10,20));
-
+        System.out.println(new App().getProduct(10,20));
     }
 }
