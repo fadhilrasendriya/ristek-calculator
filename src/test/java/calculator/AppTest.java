@@ -27,6 +27,6 @@ class AppTest {
     }
     @Test void appHasDivision() {
         App classUnderTest = new App();
-        assertEquals(12/5, classUnderTest.getDivision(12/5), "Salah");
+        assertEquals(12/5, classUnderTest.getDivision(12, 5), "Salah");
     }
 }
