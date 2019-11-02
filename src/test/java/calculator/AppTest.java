@@ -25,4 +25,8 @@ class AppTest {
         App classUnderTest = new App();
         assertEquals(25 * 4, classUnderTest.getProduct(25, 4), "Salah");
     }
+    @Test void appHasDivision() {
+        App classUnderTest = new App();
+        assertEquals(12/5, classUnderTest.getDivision(12/5), "Salah");
+    }
 }
