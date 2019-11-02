@@ -16,6 +16,9 @@ class AppTest {
         int a = 10;
         int b = 20;
         assertEquals(a + b, classUnderTest.getSum(a, b), "Salah");
-
+    }
+    @Test void appHasSubstract() {
+        App classUnderTest = new App();
+        assertEquals(30 - 10, classUnderTest.getSubstract(30,10), "Salah");
     }
 }
