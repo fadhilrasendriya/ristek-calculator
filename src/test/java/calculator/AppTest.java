@@ -21,4 +21,8 @@ class AppTest {
         App classUnderTest = new App();
         assertEquals(30 - 10, classUnderTest.getSubstract(30,10), "Salah");
     }
+    @Test void appHasProduct() {
+        App classUnderTest = new App();
+        assertEquals(25 * 4, classUnderTest.getProduct(25, 4), "Salah");
+    }
 }
